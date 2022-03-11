@@ -1,0 +1,162 @@
+* {
+    font-family: Georgia;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #e4e4e4;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li {
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #006633;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    color: whitesmoke;
+    font-size: 18px;
+    line-height: 36px;
+    padding: 0px 16px;
+}
+
+.menu li.selected {
+    background-color: whitesmoke;
+}
+
+.menu a.selected {
+    color: #006633;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+.menu a.selected:hover {
+    text-decoration: underline;
+}
+
+.header-text {
+    color: #323232;
+    font-size: 20px;
+}
+
+.title {
+    display: flex;
+    padding: 20px;
+}
+
+.video {
+    position: relative;
+    left: 11%;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 1000;
+    width: 130px;
+    margin: 10px 0;
+}
+
+.btn-green {
+    background: #006633;
+    color: white;
+}
+
+.btn-green:hover {
+    background: linear-gradient(#006633, forestgreen) chartreuse;
+}
+
+.font-size-30px{
+    font-size: 30px;
+}
+
+.color-gray{
+    color: #323232;
+}
+
+.color-green{
+    color:#006633;
+}
+
+.color-yellow{
+    color:gold;
+}
+
+.color-aqua{
+    color: aqua;
+}
+
+.color-red{
+    color:red;
+}
+
+.color-limegreen{
+    color:limegreen;
+}
+
+.color-pink{
+    color:lightpink;
+}
+
+.color-litegray{
+    color:darkgray;
+}
+.padding-10px{
+    padding:10px;
+}
+
+.padding-left{
+    padding-left: 5%;
+}
+
+.schedule {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schedule-item {
+    display: inline-block;
+    width: 28%;
+    padding: 15px;
+    margin: 5px;
+}
+
+.font-size-17px{
+    font-size: 17px;
+}
+
+.font-size-3em{
+    font-size: 3em;
+}
+
+
+
