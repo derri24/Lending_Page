@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #e4e4e4;
+    background-color: whitesmoke;
 }
 
 a {
@@ -24,7 +24,7 @@ a {
 }
 
 .navbar {
-    background-color: #006633;
+    background-color:  #0C540C;
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
@@ -49,7 +49,7 @@ a {
 }
 
 .menu a.selected {
-    color: #006633;
+    color: #0C540C;
 }
 
 .menu li a:hover {
@@ -86,12 +86,16 @@ a {
 }
 
 .btn-green {
-    background: #006633;
+    background: #0C540C;
     color: white;
 }
 
 .btn-green:hover {
-    background: linear-gradient(#006633, forestgreen) chartreuse;
+    background: linear-gradient(#0C540C, chartreuse) greenyellow;
+}
+
+.btn {
+    cursor: pointer;
 }
 
 .font-size-30px{
@@ -103,7 +107,7 @@ a {
 }
 
 .color-green{
-    color:#006633;
+    color:#0C540C;
 }
 
 .color-yellow{
@@ -129,6 +133,9 @@ a {
 .color-litegray{
     color:darkgray;
 }
+.color-white{
+    color:whitesmoke;
+}
 .padding-10px{
     padding:10px;
 }
@@ -137,16 +144,22 @@ a {
     padding-left: 5%;
 }
 
-.schedule {
+.all-list {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.schedule-item {
+.part-list {
     display: inline-block;
     width: 28%;
     padding: 15px;
+    margin: 5px;
+}
+
+.pictures-nature{
+    display: inline-block;
+    width: 24%;
     margin: 5px;
 }
 
@@ -154,8 +167,29 @@ a {
     font-size: 17px;
 }
 
+.font-size-20px{
+    font-size: 20px;
+}
+
 .font-size-3em{
     font-size: 3em;
+}
+.backgroung-image{
+    background-image: url("pictures/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.form-control {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ced4da;
+    padding: 4px;
+    display: block;
+    margin-top: 10px;
+    resize: none;
+    width: 100%;
 }
 
 
