@@ -216,14 +216,27 @@ a {
     margin-top: 10px;
 }
 
-.margin-bottom-10px{
-    margin-bottom: 10px;
+.margin-bottom-20px{
+    margin-bottom: 20px;
 }
 .background-image{
     background-image: url("pictures/1.jpg");
     background-size: cover;
     background-position: center;
     height: 410px;
+}
+
+.margin-left-33{
+    margin-left:32%;
+}
+.white-line {
+    background-color: white;
+    height: 0.5px;
+}
+
+.footer-contacts{
+    position:relative;
+    margin-left:auto;
 }
 
 .form-control {
