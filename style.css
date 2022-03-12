@@ -80,9 +80,19 @@ a {
 .video {
     position: relative;
     left: 20%;
-
 }
 
+.text-align-center{
+    text-align:center;
+}
+
+.text-align-left{
+    text-align:left;
+}
+
+.video-border{
+    border:none;
+}
 .btn {
     border: none;
     border-radius: 5px;
