@@ -23,9 +23,12 @@ a {
     padding: 10px;
 }
 
+.green-part{
+    background-color: #0C540C;
+}
 .navbar {
-    background-color:  #0C540C;
     display: flex;
+    background-color:  #0C540C;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
@@ -85,13 +88,27 @@ a {
     margin: 10px 0;
 }
 
+
+.width-300px{
+    width: 300px;
+}
 .btn-green {
     background: #0C540C;
     color: white;
 }
+.btn-white{
+    background: white;
+    color: #0C540C;
+}
+
+.btn-size-height-40px{
+    height: 40px;
+}
+
 
 .btn-green:hover {
-    background: linear-gradient(#0C540C, chartreuse) greenyellow;
+    background: linear-gradient(#0C540C, lime) green;
+    color: white;
 }
 
 .btn {
@@ -171,14 +188,25 @@ a {
     font-size: 20px;
 }
 
+.font-size-25px{
+    font-size:26px;
+}
+
 .font-size-3em{
     font-size: 3em;
+}
+
+.font-size-4em{
+    font-size: 4em;
+}
+.margin-15px{
+    margin: 15px;
 }
 .backgroung-image{
     background-image: url("pictures/1.jpg");
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 410px;
 }
 
 .form-control {
@@ -189,8 +217,20 @@ a {
     display: block;
     margin-top: 10px;
     resize: none;
-    width: 100%;
+    width: 98%;
 }
 
+.display-flex{
+    display: flex;
+}
 
+.partners-part{
+    position: relative;
+    left:28%;
+    top:50%;
+}
 
+.left-30px{
+    position: relative;
+    left:15px;
+}
